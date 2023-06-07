@@ -1,0 +1,30 @@
+{
+  "name": "delivery_app_back",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daria-hryshchenko/Delivery_App_Back.git"
+  },
+  "author": "Daria Hrychshenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daria-hryshchenko/Delivery_App_Back/issues"
+  },
+  "homepage": "https://github.com/daria-hryshchenko/Delivery_App_Back#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.2.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
