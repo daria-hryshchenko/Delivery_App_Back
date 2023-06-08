@@ -22,6 +22,10 @@ const productSchema = new Schema(
       type: String,
       required: true,
     },
+    amount: {
+      type: String,
+      required: true,
+    },
   },
   { versionKey: false, timestamps: true }
 );
